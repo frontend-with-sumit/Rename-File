@@ -1,5 +1,7 @@
 # @sumitkumar01/rename-file
 
+![](https://img.shields.io/badge/RenameFile-v1.0.0-blue)
+
 ## A tiny package that can help you save a lot of precious time.
 
 Have you ever encountered any situation when you are stuck with hundreds of files having names like FILE1, FILE2, FILE3 and so on. And the story doesn't end here. Now you have to arrange those files into different folders too. Sounds like an interesting task. Right 😁.
@@ -10,7 +12,13 @@ This tool will help you complete the task of hours or even days within seconds. 
 
 Enough with the introduction. Let's see how this tool works....
 
-## Prerequisite
+## Demo
+
+![Demo!](/assets/Demo.gif)
+
+_Titles Source: [The Ultimate Git Mastery Course](https://codewithmosh.com/p/the-ultimate-git-course)_
+
+## Prerequisites
 
 Let's do the preparation before seeing the actual magic
 
@@ -24,7 +32,7 @@ When all these arrangements are done you are ready to proceed further.
 
 > **A gentle reminder please take backup of your code before running this tool**
 
-## Installation
+## Software Requirements
 
 This tool requires [Node.js](https://nodejs.org/) to run.
 
@@ -34,13 +42,7 @@ Verify if node is installed on your system.
 npm --version
 ```
 
-Install the package using below command.
-
-```sh
-npm install @sumitkumar01/rename-file
-```
-
-## Parameters
+## Options
 
 This package requires two arguments:
 
@@ -50,6 +52,16 @@ This package requires two arguments:
 ## Execution
 
 To run this package follow the below steps:
+
+- First download the code to your local system either by downloading the zip and then extracting it or by using the command below
+
+```sh
+git clone https://github.com/designer-stuff/Rename-File.git
+```
+
+- Goto the downloaded folder and open `CMD` prompt in the same location
+
+- Now run the below command
 
 ```sh
 npm run renameFile -- --path="<path of the parent folder>" --ext="<file extension>"
@@ -67,4 +79,4 @@ Please fork this project on [Github](https://github.com/designer-stuff/Rename-Fi
 
 MIT
 
-**Free Software, Hell Yeah!**
+**Try it! It's FREE 👨‍💻**
