@@ -1,4 +1,7 @@
 {
   "name": "@sumitkumar01/renameFile",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
