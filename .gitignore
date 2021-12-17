@@ -1,2 +1,7 @@
 node_modules/
+<<<<<<< HEAD
 .vscode/
+=======
+.vscode/
+assets/
+>>>>>>> ab87c55 (Update package.json and README.md)
