@@ -1,7 +1,28 @@
 {
-  "name": "@sumitkumar01/renameFile",
+  "name": "@sumitkumar01/renamefile",
   "version": "1.0.0",
+  "description": "A tiny package to ease the task of renaming files",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designer-stuff/Rename-File.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "renameFile": "node index.js"
+  },
+  "keywords": [
+    "tiny",
+    "rename",
+    "npm",
+    "designer-stuff"
+  ],
   "dependencies": {
     "minimist": "^1.2.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/designer-stuff/Rename-File/issues"
+  },
+  "homepage": "https://github.com/designer-stuff/Rename-File#readme",
+  "author": "Sumit Kumar"
 }
