@@ -61,7 +61,11 @@ git clone https://github.com/designer-stuff/Rename-File.git
 
 - Goto the downloaded folder and open `CMD` prompt in the same location
 
-- Now run the below command
+- Now run the below commands
+
+```sh
+npm install
+```
 
 ```sh
 npm run renameFile -- --path="<path of the parent folder>" --ext="<file extension>"
