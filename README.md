@@ -16,7 +16,7 @@ Enough with the introduction. Let's see how this tool works....
 
 ![Demo!](/assets/Demo.gif)
 
-_Titles Source: [The Ultimate Git Mastery Course](https://codewithmosh.com/p/the-ultimate-git-course)_
+**Titles Source:** [The Ultimate Git Mastery Course](https://codewithmosh.com/p/the-ultimate-git-course)\_
 
 ## Prerequisites
 
@@ -27,6 +27,22 @@ Let's do the preparation before seeing the actual magic
 - Make sure that the titles.txt file contains the filea and directories name in the order that you want to arrange them
 - Make sure that the files are as per the sequence in titles files
 - Make sure _node.js_ is installed in your system
+
+> **_titles.txt_** file structure should be as follows:
+>
+> Directory name should start with an capital Alphabet.
+>
+> For Ex: A. Directory Name 1 <br>
+>
+> File names should start in the format in which you prefer to sequence your files in the directory
+>
+> For Ex: 1. File Name1 or i. File Name2 etc.
+>
+> Sample Data:
+>
+> ![Demo!](/assets/data.png)
+>
+> **Titles Source:** [The Ultimate Git Mastery Course](https://codewithmosh.com/p/the-ultimate-git-course)\_
 
 When all these arrangements are done you are ready to proceed further.
 
@@ -61,15 +77,13 @@ git clone https://github.com/designer-stuff/Rename-File.git
 
 - Goto the downloaded folder and open `CMD` prompt in the same location
 
-<<<<<<< HEAD
 - Now run the below commands
 
 ```sh
 npm install
 ```
-=======
+
 - Now run the below command
->>>>>>> ab87c55 (Update package.json and README.md)
 
 ```sh
 npm run renameFile -- --path="<path of the parent folder>" --ext="<file extension>"
