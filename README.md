@@ -16,7 +16,7 @@ Enough with the introduction. Let's see how this tool works....
 
 ![Demo!](/assets/Demo.gif)
 
-**Titles Source:** [The Ultimate Git Mastery Course](https://codewithmosh.com/p/the-ultimate-git-course)\_
+**Titles Source:** [The Ultimate Git Mastery Course](https://codewithmosh.com/p/the-ultimate-git-course)
 
 ## Prerequisites
 
@@ -83,8 +83,6 @@ git clone https://github.com/designer-stuff/Rename-File.git
 npm install
 ```
 
-- Now run the below command
-
 ```sh
 npm run renameFile -- --path="<path of the parent folder>" --ext="<file extension>"
 ```
@@ -101,4 +99,4 @@ Please fork this project on [Github](https://github.com/designer-stuff/Rename-Fi
 
 MIT
 
-**Try it! It's FREE 👨‍💻**
+**Try it! It's FREE 👨‍💻. I hope this tool will be useful to you**
